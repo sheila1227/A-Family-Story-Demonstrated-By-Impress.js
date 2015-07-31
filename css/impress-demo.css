@@ -413,9 +413,18 @@ a:focus {
 #daddy .line1 strong {
     display: inline-block;
     transition: 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 #daddy.present .line1 strong {
+    -webkit-transform: scale(2) translateX(30px);
+    -moz-transform: scale(2) translateX(30px);
+    -ms-transform: scale(2) translateX(30px);
+    -o-transform: scale(2) translateX(30px);
     transform: scale(2) translateX(30px);
 }
 
